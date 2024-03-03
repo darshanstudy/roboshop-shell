@@ -4,11 +4,11 @@ Description=Payment Service
 [Service]
 User=root
 WorkingDirectory=/app
-Environment=CART_HOST=cart.daws76study.online
+Environment=CART_HOST=172.31.22.51
 Environment=CART_PORT=8080
-Environment=USER_HOST=user.daws76study.online
+Environment=USER_HOST=172.31.22.176
 Environment=USER_PORT=8080
-Environment=AMQP_HOST=rabbitmq.daws76study.online
+Environment=AMQP_HOST=172.31.16.48
 Environment=AMQP_USER=roboshop
 Environment=AMQP_PASS=roboshop123
 
